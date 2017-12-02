@@ -5,11 +5,12 @@ public class CameraControl : MonoBehaviour
 {
 
 
-    GameObject player;
+    GameObject player, player2;
 
     void Start()
     {
         this.player = GameObject.Find("Player");
+        this.player2 = GameObject.Find("Enemy11");
     }
 
 
