@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Enemy2 : MonoBehaviour
 {
 
-    // Enemy3の当たり判定
+    // Enemy2の当たり判定
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")   // 囚人服の場合(デフォルト)
